@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width-device-width, initial-scale-1.0">
+        <title>Hollywood Face Recognition</title>
+        <link rel = "icon" href = "./images/movie_icon.png" type = "image/x-icon">
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel = "stylesheet" href = "./dropzone.min.css">
+        <link rel = "stylesheet" href = "./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class = "navbar navbar-light bg-light justify-content-center">
+            <a class = "navbar-brand" href = "#">Hollywood Face Recognition</a>
+        </nav>
+
+        <div class = "container">
+            <div class = "row">
+                <div class = "col card-wrapper" image-class = "al_pacino">
+                    <div class = "card border-0">
+                        <div id = "al_pacino" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/al_pacino.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "al_pacino2" class = "text-uppercase card-title">Al Pacino</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col card-wrapper" image-class = "benedict_cumberbatch">
+                    <div class = "card border-0">
+                        <div id = "benedict_cumberbatch" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/benedict_cumberbatch.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "benedict_cumberbatch2" class = "text-uppercase card-title">Benedict Cumberbatch</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col card-wrapper" image-class = "emma_stone">
+                    <div class = "card border-0">
+                        <div id = "emma_stone" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/emma_stone.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "emma_stone2" class = "text-uppercase card-title">Emma Stone</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col card-wrapper" image-class = "keanu_reeves">
+                    <div class = "card border-0">
+                        <div id = "keanu_reeves" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/keanu_reeves.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "keanu_reeves2" class = "text-uppercase card-title">Keanu Reeves</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col card-wrapper" image-class = "michelle_williams">
+                    <div class = "card border-0">
+                        <div id = "michelle_williams" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/michelle_williams.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "michelle_williams2" class = "text-uppercase card-title">Michelle Williams</h6>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+
+            <div class = "row">
+                <div class = "col card-wrapper-2" image-class = "morgan_freeman">
+                    <div class = "card border-0">
+                        <div id = "morgan_freeman" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/morgan_freeman.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "morgan_freeman2" class = "text-uppercase card-title">Morgan Freeman</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col card-wrapper-2" image-class = "robert_downey_jr">
+                    <div class = "card border-0">
+                        <div id = "robert_downey_jr" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/robert_downey_jr.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "robert_downey_jr2" class = "text-uppercase card-title">Robert Downey Jr.</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col card-wrapper-2" image-class = "tom_hardy">
+                    <div class = "card border-0">
+                        <div id = "tom_hardy" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/tom_hardy.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "tom_hardy2" class = "text-uppercase card-title">Tom Hardy</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col card-wrapper-2" image-class = "viola_davis">
+                    <div class = "card border-0">
+                        <div id = "viola_davis" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/viola_davis.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "viola_davis2" class = "text-uppercase card-title">Viola Davis</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col card-wrapper-2" image-class = "will_smith">
+                    <div class = "card border-0">
+                        <div id = "will_smith" class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class = "w-100 h-100 mine2" src = "./images/will_smith.jpg" alt = "Card image cap">
+                        </div>
+                        <div class = "card-body text-center mt-4">
+                            <h6 id = "will_smith2" class = "text-uppercase card-title">Will Smith</h6>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class = "row">
+                <div class = "col-sm-4">
+                    <div class = "row">
+                        <div class = "col-12 mx-auto">
+                            <form action = "/file-upload" class = "dropzone" id = "dropzone">
+                                <div class = "dz-message needsclick">
+                                    <img src = "./images/upload.png" width = "50vw" height = "50vw"><br>
+                                    <span class = "note needsclick">Drop music here or click to upload</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id = "btn_con" class = "raw mt-3">
+                        <div class = "col-3 mx-auto">
+                            <button id = "submitBtn" type = "button" class = "btn btn-success">Classify</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-sm-8 error" id = "error">
+                    <p>Can't classify music. Classifier was not able to detect (samples) properly.</p>
+                </div>
+
+                <!-- <div class = "col-sm-4" id = "resultHolder">
+                </div> -->
+
+                <div class = "col-sm-4" id = "divClassTable1">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino1"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves1"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr1"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis1"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch1"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams1"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy1"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith1"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone1"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman1"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-sm-4" id = "divClassTable2">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino2"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves2"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr2"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis2"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch2"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams2"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy2"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith2"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone2"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman2"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-sm-4" id = "divClassTable3">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino3"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves3"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr3"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis3"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch3"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams3"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy3"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith3"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone3"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman3"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-sm-4" id = "divClassTable4">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino4"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves4"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr4"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis4"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch4"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams4"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy4"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith4"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone4"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman4"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-sm-4" id = "divClassTable5">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino5"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves5"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr5"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis5"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch5"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams5"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy5"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith5"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone5"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman5"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-sm-4" id = "divClassTable6">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino6"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves6"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr6"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis6"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch6"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy6"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith6"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone6"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman6"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-sm-4" id = "divClassTable7">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino7"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves7"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr7"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis7"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch7"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams7"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy7"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith7"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone7"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman7"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-sm-4" id = "divClassTable8">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino8"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves8"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr8"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis8"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch8"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams8"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy8"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith8"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone8"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman8"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-sm-4" id = "divClassTable9">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino9"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves9"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr9"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis9"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch9"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams9"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy9"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith9"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone9"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman9"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-sm-4" id = "divClassTable10">
+                    <table class = "classTable">
+                        <tr>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                            <th>Actor</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Al Pacino</td>
+                            <td id = "score_al_pacino10"></td>
+                            <td>Keanu Reeves</td>
+                            <td id = "score_keanu_reeves10"></td>
+                            <td>Robert Downey Jr.</td>
+                            <td id = "score_robert_downey_jr10"></td>
+                            <td>Viola Davis</td>
+                            <td id = "score_viola_davis10"></td>
+                        </tr>
+                        <tr>
+                            <td>Benedict Cumberbatch</td>
+                            <td id = "score_benedict_cumberbatch10"></td>
+                            <td>Michelle Williams</td>
+                            <td id = "score_michelle_williams10"></td>
+                            <td>Tom Hardy</td>
+                            <td id = "score_tom_hardy10"></td>
+                            <td>Will Smith</td>
+                            <td id = "score_will_smith10"></td>
+                        </tr>
+                        <tr>
+                            <td>Emma Stone</td>
+                            <td id = "score_emma_stone10"></td>
+                            <td>Morgan Freeman</td>
+                            <td id = "score_morgan_freeman10"></td>
+                        </tr>
+                    </table>
+                    <br><br><br>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="./dropzone.min.js"></script>
+    <script src="./script.js"></script>
+</html>

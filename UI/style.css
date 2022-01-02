@@ -1,0 +1,107 @@
+body {
+  font-family: 'Lato';
+  background-color: #A2E4FF;
+}
+
+.mine2 {
+  background-color: #A2E4FF;
+}
+
+#submitBtn {
+  background-color: #63BEE4;
+  border-color: #63BEE4;
+}
+
+#submitBtn:hover{
+  color:#fff;
+  background-color:#3BA5D1;
+  border-color:#2B9CCB;
+}
+
+#submitBtn:focus{
+  color:#fff;
+  background-color:#3BA5D1;
+  border-color:#2B9CCB;
+  box-shadow:0 0 0 .35rem #7EC6E4;
+}
+
+.card-wrapper {
+  margin: 2% 0 0 0;
+}
+
+.card-wrapper-2 {
+  margin: 0 0 2% 0;
+}
+
+.rounded-circle {
+  margin-top: 5%;
+  border-radius: 100%!important;
+  /* border: 1px solid; */
+}
+
+form {
+  width: 25vw;
+}
+
+#btn_con {
+  width: 25vw;
+  text-align: center;
+}
+
+.card-body h6 {
+  font-size: 10px;
+}
+
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: black;
+  text-align: center;
+}
+
+.classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-radius: 15%!important;
+  width: 100%;
+  margin-left: 1%;
+}
+
+.classTable td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.classTable th {
+  border: 1px solid #ddd;
+  padding: 12px 8px;
+  text-align: left;
+  background-color: #3BA5D1;
+  color: white;
+}
