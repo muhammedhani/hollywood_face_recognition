@@ -91,6 +91,7 @@ Simply, SVM does complex data **transformations** depending on the selected **ke
 * <a href = "https://seaborn.pydata.org/tutorial.html" target = "_blank">Seaborn Python Module</a>
 * <a href = "https://docs.python.org/3/library/pickle.html#module-pickle" target = "_blank">Picke Python Module</a>
 * <a href = "https://stackoverflow.com/questions/33754935/read-a-base-64-encoded-image-from-memory-using-opencv-python-library" target = "_blank">get_cv2_image_from_base64_string(b64str) function (for backend)</a>
+***
 
 # All Credits goes to this pretty data-science youtube channel: <br>
 <a href = "https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ" target = "_blank">codebasics</a>
