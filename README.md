@@ -5,6 +5,13 @@ For this project, we need a dataset of images of our 10 classes (actors or actre
 We are implementing our model in <strong>python</strong>, and linked it to a web application (as UI).
 ***
 
+# Members:
+* **Muhammad Ali Abd-elMaksod**
+* **Moustafa Mahmoud Moustafa**
+* **Ahmad Moustafa Mourad**
+* **Nourhan Muhammad Salah**
+* **Muhammad Hani Abou El-Ela**
+
 ## How to use:
 * First, clone the repository to your device.
 * Download the dataset from this link: [Dataset](https://drive.google.com/drive/folders/11TgG_m0Z5fMCt6goEMYqB0BsmULx3v1U?usp=sharing)
