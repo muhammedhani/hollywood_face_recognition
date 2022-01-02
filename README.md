@@ -59,7 +59,7 @@ We are implementing our model in <strong>python</strong>, and linked it to a web
 * We'll try each of them and pick the one with the best **accuracy**.
 
 ### Support Vector Machines (SVM):
-**Support Vector Machines** is a **supervised** machine learning algorithm that helps in **classification** or **regression** problems. It aims to find an optimal boundary between possible outputs.
+**Support Vector Machines** is a **supervised** machine learning algorithm that helps in **classification** or **regression** problems. It aims to find an optimal boundary between possible outputs. <br>
 Simply, SVM does complex data **transformations** depending on the selected **kernel function** and based on that transformations. It tries to maximize the separation boundaries between data points depending on the labels or classes defined.
 ### Random Forest Classifier:
 **Random Forest Classifier** helps so well in classification problems. **Random Forest**, like its name implies, consists of a large number of individual **decision trees** that operate as an ensemble. Each individual tree in the random forest splits out a class prediction and the class with the **most votes** becomes our model's prediction. The fundamental concept behind random forest is a simple but powerful one.
