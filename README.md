@@ -77,3 +77,20 @@ Simply, SVM does complex data **transformations** depending on the selected **ke
 ![image](https://user-images.githubusercontent.com/48108210/147878678-1432de47-1664-463a-8520-356361968e39.png)
 # UI:
 ![image](https://user-images.githubusercontent.com/48108210/147878682-7a839196-ec45-4f99-91a2-ab8ac1e4aec6.png)
+***
+
+# References:
+* <a href = "https://towardsdatascience.com/face-detection-with-haar-cascade-727f68dafd08" target = "_blank">Face Detection with Haar Cascade</a>
+* <a href = "https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81" target = "_blank">Face Detection using opencv and python</a>
+* <a href = "https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ" target = "_blank">Data Science Teaching Tutorials</a>
+* <a href = "https://www.youtube.com/channel/UCVkatNMgkEdpWLhH0kBqqLw" target = "_blank">Signal Processing Tutorials</a>
+* <a href = "https://www.youtube.com/watch?v=xrTor1uw5iI&ab_channel=Iman" target = "_blank">Images represented in frequency domain</a>
+* <a href = "https://www.youtube.com/watch?v=spUNpyF58BY&ab_channel=3Blue1Brown" target = "_blank">Fourier Transform</a>
+* <a href = "https://scikit-learn.org/stable/tutorial/index.html" target = "_blank">Scikit-learn Python Module</a>
+* <a href = "https://matplotlib.org/stable/tutorials/index" target = "_blank">Matplotlib Python Module</a>
+* <a href = "https://seaborn.pydata.org/tutorial.html" target = "_blank">Seaborn Python Module</a>
+* <a href = "https://docs.python.org/3/library/pickle.html#module-pickle" target = "_blank">Picke Python Module</a>
+* <a href = "https://stackoverflow.com/questions/33754935/read-a-base-64-encoded-image-from-memory-using-opencv-python-library" target = "_blank">get_cv2_image_from_base64_string(b64str) function (for backend)</a>
+
+# All Credits goes to this pretty data-science youtube channel: <br>
+<a href = "https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ" target = "_blank">codebasics</a>
