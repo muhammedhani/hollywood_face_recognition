@@ -1,8 +1,11 @@
 # Hollywood Face Recognition!
-A machine learning project to classify actors' or actresses' faces from images. You give the model an image and it outputs the name of the class as shown in the image below:
+* A machine learning project to classify actors' or actresses' faces from images.<br>
+* You give the model an image and it outputs the name of the class as shown in the image below:
+
 ![1](https://user-images.githubusercontent.com/48108210/147878326-7b6aafa1-4315-4f56-8582-df21365e6f53.png)
-For this project, we need a dataset of images of our 10 classes (actors or actresses).
-We are implementing our model in <strong>python</strong>, and linked it to a web application (as UI).
+
+* For this project, we need a dataset of images of our 10 classes (actors or actresses).<br>
+* We are implementing our model in <strong>python</strong>, and linked it to a web application (as UI).
 ***
 
 # Members:
